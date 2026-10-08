@@ -2,13 +2,13 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: Chaython.WindowsMaintenanceTool
-PackageVersion: "6.6"
+PackageVersion: "6.7"
 InstallerType: portable
 Commands:
 - wmt
 Installers:
 - Architecture: x64
-  InstallerUrl: https://github.com/Chaython/Windows-Maintenance-Tool/releases/download/6.6/WindowsMaintenanceTool.exe
-  InstallerSha256: F8319810412168EE476A4CF0328CD236E571405CDC8724398222187095AD9F51
+  InstallerUrl: https://github.com/Chaython/Windows-Maintenance-Tool/releases/download/v6.7/WindowsMaintenanceTool.exe
+  InstallerSha256: 31C557CDFD77990A67B11DDAAA4ED1A817307629B9C43B9840C2E0AB4D39CE58
 ManifestType: installer
 ManifestVersion: 1.12.0
